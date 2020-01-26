@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/assignment_style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="assets/Group 44@2x.png" width="20" height="20" class="d-inline-block brand-icon" style="float: none;">
+            <img src="assets/Group 6@2x.png" width="90" height="30" class="d-inline-block brand-name" style="float: none;" alt="Oleo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <img class="hidden-sm-row col-xs-2" style="margin-right: 20px;" src="assets/Mask Group 1@2x.png">
+            <div class="btn-group">
+                <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <b>Daniel</b>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Sign Out</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="pull-left navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
+                aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <form class="form-inline my-2 my-lg-0" style="margin-right: 20px;">
+                    <input class="form-control mr-sm-2" id="input" type="search" placeholder="Search"
+                        aria-label="Search" onfocus="this.value=''">
+                    <button class="btn btn-outline-success my-2 my-sm-0" id="btn" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" id="content">
+            <div class="carousel-item active inner">
+                <img src="assets/Group 80@2x.png" class="h-100 w-100" alt="img 1">
+                <div class="carousel-caption">
+                    <h2 style="font-size:5vw;">Carousel 1</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ultrices erat.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item inner">
+                <img src="assets/Group 81@2x.png" class="h-100 w-100" alt="img 2">
+                <div class="carousel-caption">
+                    <h2 style="font-size:5vw;">Carousel 2</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ultrices erat.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item inner">
+                <img src="assets/Group 82@2x.png" class="h-100 w-100" alt="img 3">
+                <div class="carousel-caption">
+                    <h2 style="font-size:5vw;">Carousel 3</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ultrices erat.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 style="font-size:3.5vh;">Discover available services</h2>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body bg-primary text-center">
+                            <br />
+                            <p style="font-size:9vh;color: white;" class="card-text" id="month"></p>
+                            <br />
+                        </div>
+                        <div class="card-body text-center">
+                            <br />
+                            <p class="card-text" id="month-text"></p>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body bg-primary text-center">
+                            <br />
+                            <p style="font-size:9vh;color: white;" class="card-text" id="date"></p>
+                            <br />
+                        </div>
+                        <div class="card-body text-center">
+                            <br />
+                            <p class="card-text" id="date-text"></p>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body bg-primary text-center">
+                            <br />
+                            <p style="font-size:9vh;color: white;" class="card-text" id="year"></p>
+                            <br />
+                        </div>
+                        <div class="card-body text-center">
+                            <br />
+                            <p class="card-text" id="year-text"></p>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 style="font-size:3.5vh;">Explore recommended services for you</h2>
+                <br />
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. <a href="#">Click here to know more.</a></div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div id="first" class="col-lg-6 down">
+
+            <h2 style="font-size:5vw;margin-top:15%;">Questions</h2>
+            <br />
+            <p>Learn about our services through frequently asked questions.</p>
+            <br />
+            <a style="margin-bottom: 15%;" class="btn btn-primary" href="#" role="button">View FAQs</a>
+        </div>
+        <div id="second" class="col-lg-6 down">
+            <h2 style="font-size:5vw;margin-top:15%;">Stay up-to-date</h2>
+            <br />
+            <p>Learn about our product updates.</p>
+            <br />
+            <a style="margin-bottom: 15%;" class="btn btn-primary" href="#" role="button">Explore Updates</a>
+        </div>
+    </div>
+    <br />
+    <footer id="sticky-footer" class="py-1 bg-light text-white-100">
+        <div class="row col-sm-12">
+            <div class="col-md-6">
+                <p style="font-size: 9px; font-weight: bold; color: #484848; text-align: center;">
+                    <img src="assets/planet-earth@2x.png" class="img-thumbnail">
+                    Current Culture: United States - English
+                    </img>
+                </p>
+            </div>
+            <div class="col-md-6" style="text-align: right;">
+                <a href="#" class="footer-text" style="color: #484848;">Contact Us</a>
+                <a href="#" class="footer-text" style="color: #484848;">Privacy and Cookies</a>
+                <a href="#" class="footer-text" style="color: #484848;">Trademarks</a>
+                <a href="#" class="footer-text" style="color: #484848;">About our ads</a>
+                <a href="#" class="footer-text" style="color: #484848;" id="copyright"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

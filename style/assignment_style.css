@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+    word-wrap: normal;
+  }
+  .d-inline-block.brand-icon {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  .d-inline-block.brand-name {
+    margin-left: 1px;
+    margin-right: 40px;
+  }
+  .card-body {
+    flex: none;
+  }
+  .custom-cards {
+    background-color: #007bff;
+  }
+  @media only screen and (max-width: 767.98px) {
+    #carouselExampleCaptions,
+    #content,
+    .inner {
+      height: 200px;
+    }
+    h1 {
+      font-size: 2px;
+    }
+  }
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card{
+    width: 100%;
+  }
+  .down {
+    color: white;
+    text-align: center;
+  }
+  #first {
+    background-image: url("../assets/Group\ 87@2x.png");
+    background-size: cover;
+  }
+  #second {
+    background-image: url("../assets/Group\ 88@2x.png");
+    background-size: cover;
+  }
+  .footer-text {
+    font-size: 9px;
+    font-weight: bold;
+    color: #484848;
+  }
+  
